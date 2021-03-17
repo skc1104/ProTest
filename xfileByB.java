@@ -1,3 +1,7 @@
+import jdk.internal.vm.PostVMInitHook;
+
 public class OhMyGod {
-private blabla
+    public static void main(String[] args) {
+        System.out.pringln("Hello");
+    }
 }
